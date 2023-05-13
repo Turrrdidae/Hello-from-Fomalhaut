@@ -1,0 +1,118 @@
+/* 将全局margin设为0 */
+*{
+    margin: 0;
+
+    /* 显示边框 */
+    /* border: 1px solid rgb(223, 223, 223); */
+}
+
+.主标题块{
+    /* 块高 */
+    height: 250px;
+    /* 颜色 */
+    background-color: rgb(205, 205, 205);
+}
+
+.主标题{
+    /* 垂直对齐，高度跟随“主标题块”的height */
+    line-height: 200px;
+    /* 左对齐 */
+    margin-left: 15%;
+    /* 文字颜色 */
+    color: white;
+}
+.主标题:link{
+    /* 去除下划线 */
+    text-decoration: none;
+    /* 文字大小 */
+    font-size: 250%;
+    /* 文字粗细 */
+    font-weight: bold;
+}
+
+.内容块{
+    /* 外边距 */
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 30px;
+    /* 网格布局 */
+    display: grid;
+    grid-template-columns: 190px auto;
+    grid-template-rows: 650px auto 100px;
+}
+
+.导航栏{
+    /* 分界线 */
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-bottom-right-radius: 10px;
+    /* 外边距 */
+    margin-top: 10px;
+}
+
+.地区{
+    /* 文字大小 */
+    font-size: 110%;
+    /* 文字颜色 */
+    color: black;
+    /* 文字粗细 */
+    font-weight: bold;
+    /* 行高 */
+    line-height: 40px;
+}
+.地区:link{
+    /* 去除下划线 */
+    text-decoration: none;
+}
+.地区:hover{
+    /* 下划线 */
+    text-decoration: underline;
+}
+
+.组织名{
+    /* 文字大小 */
+    font-size: 100%;
+    /* 文字颜色 */
+    color: black;
+    /* 行高 */
+    line-height: 35px;
+}
+.组织名:link{
+    /* 去除下划线 */
+    text-decoration: none;
+}
+.组织名:hover{
+    /* 文字颜色 */
+    color: gray;
+    /* 文字粗细 */
+    font-weight: bold;
+}
+
+.填充1{
+    height: 25px;
+}
+
+.文章分类{
+    /* 行高 */
+    line-height: 40px;
+    /* 文字颜色 */
+    color: black;
+}
+.文章分类:link{
+    /* 去除下划线 */
+    text-decoration: none;
+}
+.文章分类:hover{
+    /* 文字颜色 */
+    color: black;
+    /* 文字粗细 */
+    font-weight: bold;
+}
+
+.主体内容{
+    /* 对齐 */
+    text-align: center;
+    line-height: 600px;
+    /* 文字格式 */
+    font-size: 120%
+}
