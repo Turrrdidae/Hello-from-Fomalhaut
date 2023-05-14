@@ -131,6 +131,10 @@
     margin-left: 10%;
 }
 
+.人物{
+    /* 文字样式 */
+    color: black;
+}
 .人物链接:link{
     /* 文字样式 */
     text-decoration: none;
