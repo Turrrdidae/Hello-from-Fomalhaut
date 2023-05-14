@@ -38,7 +38,7 @@
     /* 网格布局 */
     display: grid;
     grid-template-columns: 190px auto;
-    grid-template-rows: 650px auto 100px;
+    grid-template-rows: auto auto 100px;
 }
 
 .导航栏{
@@ -107,6 +107,12 @@
     color: black;
     /* 文字粗细 */
     font-weight: bold;
+}
+
+.主体块{
+    /* 合并网格 */
+    grid-row: 1 / 4;
+    grid-column: 2 / 3;
 }
 
 .主体内容{
